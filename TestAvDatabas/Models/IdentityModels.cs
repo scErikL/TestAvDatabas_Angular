@@ -29,7 +29,10 @@ namespace TestAvDatabas.Models
         public DbSet<Standard> Standards { get; set; }
         public DbSet<IceCream> IceCreams { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
-        
+
+        public DbSet<Person> Persons  { get; set; }
+        public DbSet<Vehicle> Vehicles  { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();

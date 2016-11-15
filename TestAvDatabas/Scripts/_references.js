@@ -7,3 +7,5 @@
 /// <reference path="respond.js" />
 /// <reference path="angular-mocks.js" />
 /// <reference path="angular.min.js" />
+/// <reference path="../script.js" />
+/// <reference path="../github.js" />
